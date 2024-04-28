@@ -40,11 +40,40 @@
     //  ""(inBoolean) => false;
     // "pankaj"(inBoolean) => true;
 
-    let someNumber = 89;
-    console.log(typeof someNumber)
-    let stringNum = String(someNumber)
-    console.log(stringNum)
-    console.log(typeof stringNum)
+    // let someNumber = 89;
+    // console.log(typeof someNumber)
+    // let stringNum = String(someNumber)
+    // console.log(stringNum)
+    // console.log(typeof stringNum)
+
+
+
+    //*******************   Operations in JavaScript     **********************************
+
+    // let str1 = "hello ";
+    // let str2 = "Pankaj";
+    // let str3 = str1 + str2
+    // console.log(str3);
+
+    // console.log("2" + "3")
+    // console.log("2" + 3)
+    // console.log(2 + "3")
+    // console.log("2" + "3" + 8)
+    // console.log(2 + "3" + 8)
+    // console.log(2 + 3 + "8")
+    // console.log("2" + 3 + "8")
+    // console.log(2 + "3" + "8")
+
+    // console.log(3 + 4 * 5 % 3);  //wrong way to write
+    // console.log(3 + (4 * 5) % 3); //wright way to write
+
+
+let gameCouter = 100;
+// gameCouter++;
+console.log(gameCouter)
+++gameCouter;
+console.log(gameCouter)
+
 
 
 
